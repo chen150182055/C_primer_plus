@@ -1,0 +1,3 @@
+D:/C language/C_primer_plus/10.6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/C language/C_primer_plus/10.6/cmake-build-debug/CMakeFiles/10_6.dir
+D:/C language/C_primer_plus/10.6/cmake-build-debug/CMakeFiles/edit_cache.dir

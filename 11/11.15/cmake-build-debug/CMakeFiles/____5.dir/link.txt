@@ -1,0 +1,3 @@
+"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\____5.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe cr CMakeFiles\____5.dir/objects.a @CMakeFiles\____5.dir\objects1.rsp
+C:\MinGW\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\____5.dir/objects.a -Wl,--no-whole-archive -o ____5.exe -Wl,--out-implib,lib____5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\____5.dir\linklibs.rsp

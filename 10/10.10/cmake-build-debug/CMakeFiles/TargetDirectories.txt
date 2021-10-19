@@ -1,0 +1,3 @@
+C:/C project/C primer plus/10.10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/C project/C primer plus/10.10/cmake-build-debug/CMakeFiles/10_10.dir
+C:/C project/C primer plus/10.10/cmake-build-debug/CMakeFiles/rebuild_cache.dir

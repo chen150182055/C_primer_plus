@@ -1,0 +1,3 @@
+C:/C project/C primer plus/11.21/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/C project/C primer plus/11.21/cmake-build-debug/CMakeFiles/11_21.dir
+C:/C project/C primer plus/11.21/cmake-build-debug/CMakeFiles/edit_cache.dir
