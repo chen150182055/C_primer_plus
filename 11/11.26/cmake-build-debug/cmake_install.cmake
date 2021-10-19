@@ -1,8 +1,8 @@
-# Install script for directory: D:/C language/C primer plus/11/11.25
+# Install script for directory: D:/C language/C primer plus/11/11.26
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/11_25")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/11_26")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/C language/C primer plus/11/11.25/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/C language/C primer plus/11/11.26/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

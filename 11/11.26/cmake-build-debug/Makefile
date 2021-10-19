@@ -56,10 +56,10 @@ RM = "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C language\C primer plus\11\11.25"
+CMAKE_SOURCE_DIR = "D:\C language\C primer plus\11\11.26"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C language\C primer plus\11\11.25\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\C language\C primer plus\11\11.26\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.25\cmake-build-debug\CMakeFiles" "D:\C language\C primer plus\11\11.25\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.26\cmake-build-debug\CMakeFiles" "D:\C language\C primer plus\11\11.26\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.25\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.26\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,41 +116,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 11_25
+# Target rules for targets named 11_26
 
 # Build rule for target.
-11_25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11_25
-.PHONY : 11_25
+11_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 11_26
+.PHONY : 11_26
 
 # fast build rule for target.
-11_25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_25.dir\build.make CMakeFiles/11_25.dir/build
-.PHONY : 11_25/fast
+11_26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_26.dir\build.make CMakeFiles/11_26.dir/build
+.PHONY : 11_26/fast
 
-copy1.obj: copy1.c.obj
-.PHONY : copy1.obj
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-copy1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_25.dir\build.make CMakeFiles/11_25.dir/copy1.c.obj
-.PHONY : copy1.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_26.dir\build.make CMakeFiles/11_26.dir/main.c.obj
+.PHONY : main.c.obj
 
-copy1.i: copy1.c.i
-.PHONY : copy1.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-copy1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_25.dir\build.make CMakeFiles/11_25.dir/copy1.c.i
-.PHONY : copy1.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_26.dir\build.make CMakeFiles/11_26.dir/main.c.i
+.PHONY : main.c.i
 
-copy1.s: copy1.c.s
-.PHONY : copy1.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-copy1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_25.dir\build.make CMakeFiles/11_25.dir/copy1.c.s
-.PHONY : copy1.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_26.dir\build.make CMakeFiles/11_26.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -160,10 +160,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 11_25
-	@echo ... copy1.obj
-	@echo ... copy1.i
-	@echo ... copy1.s
+	@echo ... 11_26
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
