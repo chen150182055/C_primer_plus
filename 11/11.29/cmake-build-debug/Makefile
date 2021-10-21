@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C language\C primer plus\11\11.29"
+CMAKE_SOURCE_DIR = "C:\C project\C_primer_plus\11\11.29"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C language\C primer plus\11\11.29\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\C project\C_primer_plus\11\11.29\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "D:\C language\C primer plus\11\11.29\cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.29\cmake-build-debug\CMakeFiles" "D:\C language\C primer plus\11\11.29\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\11\11.29\cmake-build-debug\CMakeFiles" "C:\C project\C_primer_plus\11\11.29\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C primer plus\11\11.29\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\11\11.29\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/build
 .PHONY : 11_29/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+sort_str.obj: sort_str.c.obj
+.PHONY : sort_str.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/main.c.obj
-.PHONY : main.c.obj
+sort_str.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/sort_str.c.obj
+.PHONY : sort_str.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+sort_str.i: sort_str.c.i
+.PHONY : sort_str.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/main.c.i
-.PHONY : main.c.i
+sort_str.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/sort_str.c.i
+.PHONY : sort_str.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+sort_str.s: sort_str.c.s
+.PHONY : sort_str.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/main.c.s
-.PHONY : main.c.s
+sort_str.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\11_29.dir\build.make CMakeFiles/11_29.dir/sort_str.c.s
+.PHONY : sort_str.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 11_29
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... sort_str.obj
+	@echo ... sort_str.i
+	@echo ... sort_str.s
 .PHONY : help
 
 

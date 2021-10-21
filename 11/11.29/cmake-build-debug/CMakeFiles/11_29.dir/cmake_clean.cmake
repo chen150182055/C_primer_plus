@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "11_29.exe"
   "11_29.exe.manifest"
   "11_29.pdb"
-  "CMakeFiles/11_29.dir/main.c.obj"
+  "CMakeFiles/11_29.dir/sort_str.c.obj"
   "lib11_29.dll.a"
 )
 
