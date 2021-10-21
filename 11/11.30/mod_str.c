@@ -22,16 +22,16 @@ int main() {
 }
 void ToUpper(char * str){
     while (*str){
-        *str = toupper(*str);
+        *str = toupper(*str);  //利用topper()处理字符串中每个字符
         str++;
     }
 }
 int PunctCount(const char * str){
     int ct = 0;
     while(*str){
-        if(ispunct(*str))
+        if(ispunct(*str))  //利用ispunct()统计字符串中的标点符号个数.
             ct++;
-
+        str++;
     }
     return ct;
 }
