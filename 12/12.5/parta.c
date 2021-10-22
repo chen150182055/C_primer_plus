@@ -3,9 +3,9 @@
 
 void report_count();
 
-void accumulate(int k);
+void accumulate(int k); //由于调用了这个函数,所以要包含该函数的函数原型
 
-int count = 0; //文件作用域,外部链接
+int count = 0; //文件作用域,外部链接   在这个文件中main()和report_count()共享这个变量
 
 int main() {
     int value; //自动变量
