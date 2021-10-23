@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/CLion 2021.2/bin/cmake/win/share/cmake-3.20/Modules/CMakeCCompilerABI.c" "C:/C project/C_primer_plus/12/12.15/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_c46da.dir/CMakeCCompilerABI.c.obj"
+  "C:/C project/C_primer_plus/12/12.15/main.c" "C:/C project/C_primer_plus/12/12.15/cmake-build-debug/CMakeFiles/12_15.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

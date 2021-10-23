@@ -74,7 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/C project/C_primer_plus/12/12.14/main.c">
+		<Unit filename="C:/C project/C_primer_plus/12/12.14/dyn_arr.c">
 			<Option target="12_14"/>
 		</Unit>
 		<Unit filename="C:/C project/C_primer_plus/12/12.14/CMakeLists.txt">

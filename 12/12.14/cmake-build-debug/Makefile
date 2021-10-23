@@ -128,29 +128,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/build
 .PHONY : 12_14/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+dyn_arr.obj: dyn_arr.c.obj
+.PHONY : dyn_arr.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/main.c.obj
-.PHONY : main.c.obj
+dyn_arr.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/dyn_arr.c.obj
+.PHONY : dyn_arr.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+dyn_arr.i: dyn_arr.c.i
+.PHONY : dyn_arr.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/main.c.i
-.PHONY : main.c.i
+dyn_arr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/dyn_arr.c.i
+.PHONY : dyn_arr.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+dyn_arr.s: dyn_arr.c.s
+.PHONY : dyn_arr.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/main.c.s
-.PHONY : main.c.s
+dyn_arr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_14.dir\build.make CMakeFiles/12_14.dir/dyn_arr.c.s
+.PHONY : dyn_arr.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 12_14
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... dyn_arr.obj
+	@echo ... dyn_arr.i
+	@echo ... dyn_arr.s
 .PHONY : help
 
 

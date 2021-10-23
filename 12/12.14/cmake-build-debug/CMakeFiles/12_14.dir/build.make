@@ -65,27 +65,27 @@ include CMakeFiles/12_14.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/12_14.dir/flags.make
 
-CMakeFiles/12_14.dir/main.c.obj: CMakeFiles/12_14.dir/flags.make
-CMakeFiles/12_14.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C project\C_primer_plus\12\12.14\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/12_14.dir/main.c.obj"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\12_14.dir\main.c.obj -c "C:\C project\C_primer_plus\12\12.14\main.c"
+CMakeFiles/12_14.dir/dyn_arr.c.obj: CMakeFiles/12_14.dir/flags.make
+CMakeFiles/12_14.dir/dyn_arr.c.obj: ../dyn_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C project\C_primer_plus\12\12.14\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/12_14.dir/dyn_arr.c.obj"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\12_14.dir\dyn_arr.c.obj -c "C:\C project\C_primer_plus\12\12.14\dyn_arr.c"
 
-CMakeFiles/12_14.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/12_14.dir/main.c.i"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\C project\C_primer_plus\12\12.14\main.c" > CMakeFiles\12_14.dir\main.c.i
+CMakeFiles/12_14.dir/dyn_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/12_14.dir/dyn_arr.c.i"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\C project\C_primer_plus\12\12.14\dyn_arr.c" > CMakeFiles\12_14.dir\dyn_arr.c.i
 
-CMakeFiles/12_14.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/12_14.dir/main.c.s"
-	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\C project\C_primer_plus\12\12.14\main.c" -o CMakeFiles\12_14.dir\main.c.s
+CMakeFiles/12_14.dir/dyn_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/12_14.dir/dyn_arr.c.s"
+	C:\MinGW\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\C project\C_primer_plus\12\12.14\dyn_arr.c" -o CMakeFiles\12_14.dir\dyn_arr.c.s
 
 # Object files for target 12_14
 12_14_OBJECTS = \
-"CMakeFiles/12_14.dir/main.c.obj"
+"CMakeFiles/12_14.dir/dyn_arr.c.obj"
 
 # External object files for target 12_14
 12_14_EXTERNAL_OBJECTS =
 
-12_14.exe: CMakeFiles/12_14.dir/main.c.obj
+12_14.exe: CMakeFiles/12_14.dir/dyn_arr.c.obj
 12_14.exe: CMakeFiles/12_14.dir/build.make
 12_14.exe: CMakeFiles/12_14.dir/linklibs.rsp
 12_14.exe: CMakeFiles/12_14.dir/objects1.rsp

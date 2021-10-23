@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -59,27 +56,17 @@ RM = "C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles\CMakeTmp"
+CMAKE_SOURCE_DIR = "C:\C project\C_primer_plus\12\12.15"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles\CMakeTmp"
+CMAKE_BINARY_DIR = "C:\C project\C_primer_plus\12\12.15\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@echo No interactive CMake dialog available...
-	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
-	@echo Running CMake to regenerate build system...
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
 	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
@@ -87,11 +74,21 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
+
 # The main all target
-all:
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles\CMakeTmp\\CMakeFiles\progress.marks"
+all: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles" "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\12\12.15\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -113,58 +110,71 @@ preinstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
+# clear depends
+depend:
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+.PHONY : depend
+
 #=============================================================================
-# Target rules for targets named cmTC_c46da
+# Target rules for targets named 12_15
 
 # Build rule for target.
-cmTC_c46da:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmTC_c46da
-.PHONY : cmTC_c46da
+12_15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12_15
+.PHONY : 12_15
 
 # fast build rule for target.
-cmTC_c46da/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c46da.dir\build.make CMakeFiles/cmTC_c46da.dir/build
-.PHONY : cmTC_c46da/fast
+12_15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_15.dir\build.make CMakeFiles/12_15.dir/build
+.PHONY : 12_15/fast
 
-CMakeCCompilerABI.obj: CMakeCCompilerABI.c.obj
-.PHONY : CMakeCCompilerABI.obj
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-CMakeCCompilerABI.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c46da.dir\build.make CMakeFiles/cmTC_c46da.dir/CMakeCCompilerABI.c.obj
-.PHONY : CMakeCCompilerABI.c.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_15.dir\build.make CMakeFiles/12_15.dir/main.c.obj
+.PHONY : main.c.obj
 
-CMakeCCompilerABI.i: CMakeCCompilerABI.c.i
-.PHONY : CMakeCCompilerABI.i
+main.i: main.c.i
+.PHONY : main.i
 
 # target to preprocess a source file
-CMakeCCompilerABI.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c46da.dir\build.make CMakeFiles/cmTC_c46da.dir/CMakeCCompilerABI.c.i
-.PHONY : CMakeCCompilerABI.c.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_15.dir\build.make CMakeFiles/12_15.dir/main.c.i
+.PHONY : main.c.i
 
-CMakeCCompilerABI.s: CMakeCCompilerABI.c.s
-.PHONY : CMakeCCompilerABI.s
+main.s: main.c.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-CMakeCCompilerABI.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cmTC_c46da.dir\build.make CMakeFiles/cmTC_c46da.dir/CMakeCCompilerABI.c.s
-.PHONY : CMakeCCompilerABI.c.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12_15.dir\build.make CMakeFiles/12_15.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
+	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... cmTC_c46da
-	@echo ... CMakeCCompilerABI.obj
-	@echo ... CMakeCCompilerABI.i
-	@echo ... CMakeCCompilerABI.s
+	@echo ... 12_15
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 
 
 #=============================================================================
 # Special targets to cleanup operation of make.
+
+# Special rule to run CMake to check the build system integrity.
+# No rule that depends on this can have commands that come from listfiles
+# because they might be regenerated.
+cmake_check_build_system:
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+.PHONY : cmake_check_build_system
 
