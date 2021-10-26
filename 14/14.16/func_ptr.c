@@ -4,7 +4,7 @@
 
 #define LEN 81
 
-char *s_gets(char *st, int n);
+char *s_gets(char *st, int n);//加强版fgets(),整行读取输入并用空字符代替换行符，或者读取一部分输入，并丢弃其余部分
 
 char showmenu(void);
 
@@ -25,7 +25,7 @@ int main() {
     puts("Enter a string(empty line to quit):");
     while (s_gets(line, LEN) != NULL && line[0] != '\0') {
         while ((choice = showmenu()) != 'n') {
-            switch (choice) {
+            switch (choice) {  //Switch语句设置指针
                 case 'u':
                     pfun = ToUpper;
                     break;
@@ -66,7 +66,7 @@ char showmenu(void) {
     return ans;
 }
 
-void eatline(void) {
+void eatline(void) {   //丢弃输入行中的剩余字符
     while (getchar() != '\n')
         continue;
 }
@@ -100,7 +100,7 @@ void Dummy(char *str) {
 }
 
 void show(void(*fp)(char *), char *str) {
-    (*fp)(str); //把用户选中的函数作用于str
+    (*fp)(str); //把用户选中的函数作用于str 相当于 function(str) -function为函数名
     puts(str);//显示结果
 }
 
