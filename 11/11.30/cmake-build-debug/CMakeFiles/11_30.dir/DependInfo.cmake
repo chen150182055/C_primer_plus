@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/C project/C_primer_plus/11/11.30/mod_str.c" "C:/C project/C_primer_plus/11/11.30/cmake-build-debug/CMakeFiles/11_30.dir/mod_str.c.obj"
+  "D:/C language/C primer plus/11/11.30/mod_str.c" "D:/C language/C primer plus/11/11.30/cmake-build-debug/CMakeFiles/11_30.dir/mod_str.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
