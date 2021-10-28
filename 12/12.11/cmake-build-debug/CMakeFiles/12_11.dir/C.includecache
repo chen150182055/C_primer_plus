@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/C project/C_primer_plus/12/12.11/diceroll.c
+diceroll.h
+C:/C project/C_primer_plus/12/12.11/diceroll.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/C project/C_primer_plus/12/12.11/diceroll.h
+
+C:/C project/C_primer_plus/12/12.11/manydice.c
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+diceroll.h
+C:/C project/C_primer_plus/12/12.11/diceroll.h
+

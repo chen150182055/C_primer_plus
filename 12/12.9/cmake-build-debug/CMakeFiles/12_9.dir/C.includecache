@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/C project/C_primer_plus/12/12.9/r_drivel.c
+stdio.h
+-
+stdlib.h
+-
+
+C:/C project/C_primer_plus/12/12.9/s_and_r.c
+
