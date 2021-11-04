@@ -3,4 +3,4 @@ project(16_1 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(16_1 main.c)
+add_executable(16_1 preproc.c)

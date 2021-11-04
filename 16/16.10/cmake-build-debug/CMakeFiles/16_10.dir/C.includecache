@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/C project/C_primer_plus/16/16.10/doubinc1.c
+stdio.h
+-
+names.h
+C:/C project/C_primer_plus/16/16.10/names.h
+names.h
+C:/C project/C_primer_plus/16/16.10/names.h
+
+C:/C project/C_primer_plus/16/16.10/names.h
+

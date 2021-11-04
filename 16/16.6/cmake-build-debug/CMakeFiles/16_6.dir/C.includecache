@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/C project/C_primer_plus/16/16.6/name_st.c
+stdio.h
+-
+names_st.h
+C:/C project/C_primer_plus/16/16.6/names_st.h
+
+C:/C project/C_primer_plus/16/16.6/names_st.h
+string.h
+-
+
+C:/C project/C_primer_plus/16/16.6/useheader.c
+stdio.h
+-
+names_st.h
+C:/C project/C_primer_plus/16/16.6/names_st.h
+
