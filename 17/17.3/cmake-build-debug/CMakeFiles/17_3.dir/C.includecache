@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/C project/C_primer_plus/17/17.3/main.c
+D:/C language/C_primer_plus/17/17.3/films3.c
 stdio.h
+-
+stdlib.h
+-
+list.h
+D:/C language/C_primer_plus/17/17.3/list.h
+
+D:/C language/C_primer_plus/17/17.3/list.h
+stdbool.h
 -
 

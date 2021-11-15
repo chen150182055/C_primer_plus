@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/C project/C_primer_plus/17/17.2/films2.c" "C:/C project/C_primer_plus/17/17.2/cmake-build-debug/CMakeFiles/17_2.dir/films2.c.obj"
+  "D:/C language/C_primer_plus/17/17.2/films2.c" "D:/C language/C_primer_plus/17/17.2/cmake-build-debug/CMakeFiles/17_2.dir/films2.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

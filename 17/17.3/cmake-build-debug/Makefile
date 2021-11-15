@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\C project\C_primer_plus\17\17.3"
+CMAKE_SOURCE_DIR = "D:\C language\C_primer_plus\17\17.3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\C project\C_primer_plus\17\17.3\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\C language\C_primer_plus\17\17.3\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\C project\C_primer_plus\17\17.3\cmake-build-debug"
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\17\17.3\cmake-build-debug\CMakeFiles" "C:\C project\C_primer_plus\17\17.3\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C_primer_plus\17\17.3\cmake-build-debug\CMakeFiles" "D:\C language\C_primer_plus\17\17.3\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C project\C_primer_plus\17\17.3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C language\C_primer_plus\17\17.3\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/build
 .PHONY : 17_3/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+films3.obj: films3.c.obj
+.PHONY : films3.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/main.c.obj
-.PHONY : main.c.obj
+films3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/films3.c.obj
+.PHONY : films3.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+films3.i: films3.c.i
+.PHONY : films3.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/main.c.i
-.PHONY : main.c.i
+films3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/films3.c.i
+.PHONY : films3.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+films3.s: films3.c.s
+.PHONY : films3.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/main.c.s
-.PHONY : main.c.s
+films3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17_3.dir\build.make CMakeFiles/17_3.dir/films3.c.s
+.PHONY : films3.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 17_3
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... films3.obj
+	@echo ... films3.i
+	@echo ... films3.s
 .PHONY : help
 
 
