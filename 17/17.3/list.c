@@ -85,12 +85,12 @@ void EmptyTheList(List *plist){
     while (*plist !=NULL){
         psave = (*plist)->next;  /*保存下一个结点的地址*/
         free(*plist);            /*释放当前结点      */
-        *plist = psave           /*前进至下一结点     */
+        *plist = psave;           /*前进至下一结点     */
     }
 }
 
 /*局部定义函数*/
 /*把一个项拷贝到结点中*/
-static void CopyTonde(Item item,Node * pnode){
+static void CopyToNode(Item item,Node * pnode){
     pnode->item = item;  /*拷贝结构*/
 }

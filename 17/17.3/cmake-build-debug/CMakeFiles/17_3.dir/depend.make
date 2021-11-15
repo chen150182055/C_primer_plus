@@ -3,4 +3,5 @@
 
 CMakeFiles/17_3.dir/films3.c.obj: \
  ../films3.c \
+ ../list.c \
  ../list.h
