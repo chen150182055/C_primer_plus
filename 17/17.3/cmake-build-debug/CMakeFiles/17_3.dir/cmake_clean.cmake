@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "17_3.exe"
-  "17_3.exe.manifest"
+  "17_3"
   "17_3.pdb"
-  "CMakeFiles/17_3.dir/films3.c.obj"
-  "lib17_3.dll.a"
+  "CMakeFiles/17_3.dir/films3.c.o"
+  "CMakeFiles/17_3.dir/list.c.o"
 )
 
 # Per-language clean rules from dependency scanning.
