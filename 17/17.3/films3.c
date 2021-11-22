@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>  /*提供exit()的原型*/
 #include "list.h"    /*定义List Item*/
-#include "list.c"
 
 void showmovies(Item item);
 
